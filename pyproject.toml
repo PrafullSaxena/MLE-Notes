@@ -1,0 +1,14 @@
+[project]
+name = "milvus"
+version = "0.1.0"
+description = "A guided Milvus vector database notebook"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.3",
+    "nbconvert>=7.17.1",
+    "pymilvus[milvus-lite]>=2.6,<2.7",
+    "pyspark>=4.2.0",
+    "sentence-transformers>=6.1.0",
+]
