@@ -7,3 +7,5 @@ data/
 **/.ipynb_checkpoints/
 __pycache__/
 .DS_Store
+todo_revies.md
+TODO.md
